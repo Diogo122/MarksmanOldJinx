@@ -137,7 +137,8 @@ namespace Marksman
 
                 if (target.IsValidTarget())
                 {
-                    if (DamageLib.getDmg(target, DamageLib.SpellType.R, DamageLib.StageType.FirstDamage) > target.Health)
+                    if ObjectManager.Player.GetSpellDamage(target, SpellSlot.R, 1) >
+                          target.Health))
                     {
                         R.Cast(target, false, true);
                     }
