@@ -1,4 +1,4 @@
-﻿#region
+#region
 
 using System;
 using System.Drawing;
@@ -20,7 +20,7 @@ namespace Marksman
 
         public Jinx()
         {
-            Utils.PrintMessage("Jinx by Diogo122 loaded.");
+            Utils.PrintMessage("Jinx by [Credits in Github] loaded.");
 
             Q = new Spell(SpellSlot.Q, float.MaxValue);
             W = new Spell(SpellSlot.W, 1500f);
