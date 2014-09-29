@@ -20,7 +20,7 @@ namespace Marksman
 
         public Jinx()
         {
-            Utils.PrintMessage("Jinx by [Credits in Github] loaded.");
+            Utils.PrintMessage("Jinx By Diogo122 Esk0r and pingosharp");
 
             Q = new Spell(SpellSlot.Q, float.MaxValue);
             W = new Spell(SpellSlot.W, 1500f);
